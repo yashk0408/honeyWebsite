@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+    /* overflow-y: visible; */
+    /* overflow:  */
+    
+  }
+  .promo-block{  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+     background-color: black;
+     margin: auto;
+     /* display: table; */
+     width: 100%;
+  }
+  #logo{
+      height: 80px;
+      margin: 4px;
+      border-radius: 5px;
+  }
+  .container-fluid{
+      position: sticky;
+      top: 0;
+  
+  }
+  #main-menu-ul{
+      font-weight: 600;
+      color: whitesmoke;
+  
+  }
+  li:hover{
+      background-color: rgb(255, 208, 130);
+  }
+  .row {
+    --bs-gutter-x: 0px !important;}
+    .social-footer {
+        padding: 1rem;
+        background: #8a8a8a;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+      }
+      
+      .social-footer .social-footer-icons li:last-of-type {
+        margin-right: 0;
+      }
+      
+      .social-footer .social-footer-icons .fa {
+        font-size: 1.3rem;
+        color: #fefefe;
+      }
+      
+      .social-footer .social-footer-icons .fa:hover {
+        color: #4a4a4a;
+        transition: color 0.3s ease-in;
+      }
+      .icon-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      li{
+        color: #fefefe;
+      }
+      
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        /* background: #3B5998; */
+        color: white;
+      }
+      
+      .fa-twitter {
+        /* background: #55ACEE; */
+        color: white;
+      }
+      
+      .fa-google {
+        /* background: #dd4b39; */
+        color: white;
+      }
+      
+      .fa-linkedin {
+        /* background: #007bb5; */
+        color: white;
+      }
+      
+      .fa-youtube {
+        /* background: #bb0000; */
+        color: white;
+      }
+      
+      .fa-instagram {
+        /* background: #125688; */
+        color: white;
+      }
+      
+      
